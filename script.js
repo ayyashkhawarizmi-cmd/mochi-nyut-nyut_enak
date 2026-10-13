@@ -16,7 +16,7 @@
 
 // Nomor WhatsApp: pakai format internasional tanpa "+" atau "0" di depan.
 // Contoh: 0812-3456-7890 menjadi "6281234567890"
-const WHATSAPP_NUMBER = "6283195175187";
+const WHATSAPP_NUMBER = "6285526291321";
 
 const INSTAGRAM_USERNAME = "username_instagram"; // tanpa @
 
