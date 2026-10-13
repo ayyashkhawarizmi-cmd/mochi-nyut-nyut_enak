@@ -25,7 +25,7 @@ const LOCATION_NAME = "Area Sekolah / Sekitar Lingkungan Sekolah";
 
 // Isi dengan alamat atau nama tempat agar peta Google Maps tampil.
 // Contoh: "SMK Negeri 1 Jakarta". Kosongkan untuk memakai placeholder.
-const MAPS_QUERY = "";
+const MAPS_QUERY = "Jl. Lkr. Utara No.8 (atau Jl. Raya Kaliabang No.8), Perwira, Kec. Bekasi Utara, Kota Bekasi, Jawa Barat 17124.";
 
 // Jam operasional
 const OPENING_DAYS = "Senin - Jumat";
@@ -34,14 +34,14 @@ const OPENING_TIME = "09.00 - 15.00";
 // Daftar produk dan harga (harga dalam rupiah, angka saja)
 const PRODUCTS = [
   {
-    name: "Strawberry",
-    emoji: "🍓",
-    key: "strawberry",
-    image: "strawberry.png",
+    name: "Oreo",
+    emoji: "🍪",
+    key: "oreo",
+    image: "oreo.png",
     price: 5000,
     tint: "#ffe1ec",
-    desc: "Mochi lembut dengan isian cream strawberry yang manis dan segar.",
-    pickerDesc: "Manis, segar, dan lembut. Pas buat kamu yang suka rasa ceria.",
+    desc: "Mochi lembut dengan isian cream oreo yang manis dan creamy.",
+    pickerDesc: "Manis, creamy, dan lembut. Pas buat kamu yang suka rasa chill.",
   },
   {
     name: "Mangga",
@@ -84,7 +84,7 @@ function contactWhatsApp() {
 /* ---------- 3. Ilustrasi mochi (SVG) ---------- */
 
 const MOCHI_COLORS = {
-  strawberry: { top: "#ffd1df", bottom: "#ff9db9", cream: "#fff5f8", accent: "#ff6f9c" },
+  strawberry: { top: "#aca9a9", bottom: "#a7a4a5", cream: "#fff5f8", accent: "#626162" },
   mangga: { top: "#ffe9a8", bottom: "#ffc65c", cream: "#fffbe9", accent: "#ff9f1c" },
   cokelat: { top: "#d9a48a", bottom: "#a8664a", cream: "#fff1e6", accent: "#6b4034" },
 };
