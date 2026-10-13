@@ -84,7 +84,7 @@ function contactWhatsApp() {
 /* ---------- 3. Ilustrasi mochi (SVG) ---------- */
 
 const MOCHI_COLORS = {
-  strawberry: { top: "#aca9a9", bottom: "#525152", cream: "#ffffff", accent: "#262626" },
+  strawberry: { top: "#d2cece", bottom: "#929292", cream: "#ffffff", accent: "#000000" },
   mangga: { top: "#ffe9a8", bottom: "#ffc65c", cream: "#fffbe9", accent: "#ff9f1c" },
   cokelat: { top: "#d9a48a", bottom: "#a8664a", cream: "#fff1e6", accent: "#6b4034" },
 };
