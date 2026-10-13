@@ -382,6 +382,9 @@ code { background: var(--light-pink); padding: 1px 6px; border-radius: 8px; font
 .team-card:nth-child(1) .team-card__photo img {
   object-position: top;
 }
+.team-card:nth-child(2) .team-card__photo img {
+  object-position: top;
+}
 
 .team-card:hover .team-card__photo img,
 .team-card:hover .team-card__placeholder {
