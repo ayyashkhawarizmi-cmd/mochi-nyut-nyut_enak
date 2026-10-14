@@ -21,7 +21,7 @@ const WHATSAPP_NUMBER = "6285526291321";
 const INSTAGRAM_USERNAME = "username_instagram"; // tanpa @
 
 // Lokasi penjualan (teks yang tampil di website)
-const LOCATION_NAME = "Area Sekolah / Sekitar Lingkungan Sekolah";
+const LOCATION_NAME = "Area kampus / Sekitar Lingkungan kampus";
 
 // Isi dengan alamat atau nama tempat agar peta Google Maps tampil.
 // Contoh: "SMK Negeri 1 Jakarta". Kosongkan untuk memakai placeholder.
