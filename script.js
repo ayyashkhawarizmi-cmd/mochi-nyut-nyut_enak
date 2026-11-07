@@ -424,7 +424,7 @@ function initContent() {
     hoursDays: OPENING_DAYS,
     hoursTime: OPENING_TIME,
     whatsapp: hasNumber ? `+${WHATSAPP_NUMBER}` : "+62 XXX-XXXX-XXXX",
-    instagram: `@${INSTAGRAM_USERNAME}`,
+    instagram: `@${mochinyutnyut}`,
   };
 
   document.querySelectorAll("[data-bind]").forEach((el) => {
