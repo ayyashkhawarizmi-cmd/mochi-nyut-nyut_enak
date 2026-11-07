@@ -18,7 +18,7 @@
 // Contoh: 0812-3456-7890 menjadi "6281234567890"
 const WHATSAPP_NUMBER = "6285526291321";
 
-const INSTAGRAM_USERNAME = "username_instagram"; // tanpa @
+const INSTAGRAM_USERNAME = "mochinyutnyut"; // tanpa @
 
 // Lokasi penjualan (teks yang tampil di website)
 const LOCATION_NAME = "Area kampus / Sekitar Lingkungan kampus";
@@ -424,7 +424,7 @@ function initContent() {
     hoursDays: OPENING_DAYS,
     hoursTime: OPENING_TIME,
     whatsapp: hasNumber ? `+${WHATSAPP_NUMBER}` : "+62 XXX-XXXX-XXXX",
-    instagram: `@${mochinyutnyut}`,
+    instagram: `@${INSTAGRAM_USERNAME}`,
   };
 
   document.querySelectorAll("[data-bind]").forEach((el) => {
